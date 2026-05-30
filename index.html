@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Siva Chakradhar | ECE & Embedded Systems Developer</title>
+  <title>Siva Chakradhar | Embedded Systems Developer</title>
   <meta name="description" content="Portfolio of Nagisetti Venkata Siva Chakradhar — ECE student, Embedded Systems Developer, and Embedded AI Enthusiast specializing in Raspberry Pi, OpenCV, TensorFlow Lite, and hardware-software integration." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -734,7 +734,7 @@
 
 <!-- ===================== NAVBAR ===================== -->
 <nav id="navbar">
-  <div class="nav-logo">SIVA<span>.</span>DEV</div>
+  <div class="nav-logo">SIVA<span> </span>NAGISETTI</div>
   <ul class="nav-links" id="navLinks">
     <li><a href="#about">About</a></li>
     <li><a href="#skills">Skills</a></li>
@@ -754,7 +754,7 @@
   <div class="hero-orb orb1"></div>
   <div class="hero-orb orb2"></div>
   <div class="hero-content">
-    <p class="hero-tag">Electronics &amp; Communication Engineering</p>
+    <p class="hero-tag">Embedded Systems Engineering</p>
     <h1 class="hero-name">NAGISETTI VENKATA<br /><span class="cyan">SIVA CHAKRADHAR</span></h1>
     <p class="hero-role">
       <strong>ECE Developer</strong> &nbsp;|&nbsp; Embedded Systems &nbsp;|&nbsp; Embedded AI &nbsp;|&nbsp; Hardware–Software Integration
@@ -825,7 +825,7 @@
       <div class="info-row"><i class="fa fa-language"></i><span>Telugu &nbsp;·&nbsp; Hindi &nbsp;·&nbsp; English</span></div>
       <div class="info-row"><i class="fa fa-graduation-cap"></i><span>B.Tech ECE · 2023–2026</span></div>
       <div style="margin-top:1.4rem;">
-        <a href="#" class="btn btn-outline" style="font-size:.75rem; padding:.6rem 1.2rem;">
+        <a href="https://drive.google.com/file/d/1k9z28UV-BB7oivaA4V5ano7dT5zDy-BP/view?usp=drive_link" class="btn btn-outline" style="font-size:.75rem; padding:.6rem 1.2rem;">
           <i class="fa fa-download"></i> Download Resume
         </a>
       </div>
@@ -928,7 +928,7 @@
         <div class="edu-meta">
           <span><i class="fa fa-calendar"></i> 2023 – 2026</span>
           <span class="grade"><i class="fa fa-star"></i> CGPA: 7.84 / 10</span>
-          <span><i class="fa fa-map-pin"></i> Andhra Pradesh, India</span>
+          <span><i class="fa fa-map-pin"></i> Surampalem, Andhra Pradesh, India</span>
         </div>
       </div>
     </div>
@@ -940,7 +940,7 @@
         <div class="edu-meta">
           <span><i class="fa fa-calendar"></i> 2020 – 2023</span>
           <span class="grade"><i class="fa fa-star"></i> 85.75%</span>
-          <span><i class="fa fa-map-pin"></i> Andhra Pradesh, India</span>
+          <span><i class="fa fa-map-pin"></i> Surampalem, Andhra Pradesh, India</span>
         </div>
       </div>
     </div>
@@ -952,7 +952,7 @@
         <div class="edu-meta">
           <span><i class="fa fa-calendar"></i> 2020</span>
           <span class="grade"><i class="fa fa-star"></i> CGPA: 8.8 / 10</span>
-          <span><i class="fa fa-map-pin"></i> Andhra Pradesh, India</span>
+          <span><i class="fa fa-map-pin"></i> Panduru, Andhra Pradesh, India</span>
         </div>
       </div>
     </div>
@@ -1216,34 +1216,42 @@
           <i class="fab fa-linkedin"></i> linkedin.com/in/sivanagisetti
         </a>
         <span class="contact-link">
-          <i class="fa fa-map-marker-alt"></i> Andhra Pradesh, India
+          <i class="fa fa-map-marker-alt"></i> Panduru, Andhra Pradesh, India
         </span>
       </div>
     </div>
-    <div class="contact-form">
-      <div class="form-group">
-        <label for="cf-name">Your Name</label>
-        <input type="text" id="cf-name" placeholder="e.g. Ravi Kumar" />
-      </div>
-      <div class="form-group">
-        <label for="cf-email">Email Address</label>
-        <input type="email" id="cf-email" placeholder="you@example.com" />
-      </div>
-      <div class="form-group">
-        <label for="cf-subject">Subject</label>
-        <input type="text" id="cf-subject" placeholder="Internship / Collaboration / Project" />
-      </div>
-      <div class="form-group">
-        <label for="cf-msg">Message</label>
-        <textarea id="cf-msg" placeholder="Tell me about your project or opportunity..."></textarea>
-      </div>
-      <button class="btn btn-primary form-btn" onclick="handleFormSubmit()">
-        <i class="fa fa-paper-plane"></i> Send Message
-      </button>
-      <p id="form-status" style="margin-top:.8rem; font-family:var(--font-mono); font-size:.78rem; color:var(--green); display:none; text-align:center;">
-        ✓ Message sent! I'll get back to you soon.
-      </p>
-    </div>
+  <form id="contact-form" class="contact-form">
+  <input type="hidden" name="access_key" value="2bf220c2-92f8-4157-a964-d372a31fdffd">
+  <input type="hidden" name="subject" value="New Message From SIVA.DEV">
+
+  <div class="form-group">
+    <label for="cf-name">Your Name</label>
+    <input type="text" id="cf-name" name="name" placeholder="e.g. Ravi Kumar" required>
+  </div>
+
+  <div class="form-group">
+    <label for="cf-email">Email Address</label>
+    <input type="email" id="cf-email" name="email" placeholder="you@example.com" required>
+  </div>
+
+  <div class="form-group">
+    <label for="cf-subject">Subject</label>
+    <input type="text" id="cf-subject" name="user_subject" placeholder="Internship / Collaboration / Project" required>
+  </div>
+
+  <div class="form-group">
+    <label for="cf-msg">Message</label>
+    <textarea id="cf-msg" name="message" placeholder="Tell me about your project or opportunity..." required></textarea>
+  </div>
+
+  <button type="submit" class="btn btn-primary form-btn">
+    <i class="fa fa-paper-plane"></i> Send Message
+  </button>
+
+  <p id="form-status" style="margin-top:.8rem; font-family:var(--font-mono); font-size:.78rem; color:var(--green); display:none; text-align:center;">
+    ✓ Message sent! I'll get back to you soon.
+  </p>
+  </form>
   </div>
 </section>
 
@@ -1285,7 +1293,7 @@
     'Embedded Systems Developer',
     'Embedded AI Enthusiast',
     'Hardware–Software Integrator',
-    'ECE Engineering Student'
+    'ECE Engineering'
   ];
   let ri = 0, ci = 0, deleting = false;
   const roleEl = document.querySelector('.hero-role strong');
@@ -1315,18 +1323,33 @@
   });
 
   /* Contact form mock submit */
-  function handleFormSubmit() {
-    const name = document.getElementById('cf-name').value.trim();
-    const email = document.getElementById('cf-email').value.trim();
-    const status = document.getElementById('form-status');
-    if (!name || !email) { alert('Please fill in Name and Email at minimum.'); return; }
-    status.style.display = 'block';
-    setTimeout(() => { status.style.display = 'none'; }, 4000);
-    document.getElementById('cf-name').value = '';
-    document.getElementById('cf-email').value = '';
-    document.getElementById('cf-subject').value = '';
-    document.getElementById('cf-msg').value = '';
-  }
+document.getElementById("contact-form").addEventListener("submit", async function(e) {
+    e.preventDefault();
+
+    const form = this;
+    const status = document.getElementById("form-status");
+
+    const formData = new FormData(form);
+
+    try {
+        const response = await fetch("https://api.web3forms.com/submit", {
+            method: "POST",
+            body: formData
+        });
+
+        const result = await response.json();
+
+        if (result.success) {
+            status.style.display = "block";
+            status.innerHTML = "✓ Message sent! I'll get back to you soon.";
+            form.reset();
+        } else {
+            alert("Failed to send message.");
+        }
+    } catch (error) {
+        alert("Something went wrong. Please try again.");
+    }
+    });
 </script>
 </body>
 </html>
